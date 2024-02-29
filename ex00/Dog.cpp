@@ -2,13 +2,8 @@
 
 Dog::Dog(void)
 {
+	this->type = "Dog";
 	std::cout << "Dog default constructor" << std::endl;
-}
-
-Dog::Dog(const std::string& type)
-{
-	std::cout << "Dog name constructor" << std::endl;
-	this->type = type;
 }
 
 Dog::Dog(const Dog& other)
@@ -30,7 +25,7 @@ Dog::~Dog()
 	std::cout << "Dog deconstructor" << std::endl;
 }
 
-void Dog::makeSound(void)
+void Dog::makeSound(void) const
 {
 	std::cout << "bark!!" << std::endl;
 }

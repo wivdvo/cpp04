@@ -1,9 +1,11 @@
-NAME = diamondtrap
+NAME = animals
 
 SRCS =	main.cpp \
 		Dog.cpp \
 		Cat.cpp \
-		Animal.cpp
+		Animal.cpp \
+		WrongAnimal.cpp \
+		WrongCat.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
