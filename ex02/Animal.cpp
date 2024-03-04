@@ -29,3 +29,8 @@ Animal::~Animal()
 {
 	std::cout << "Animal destructor" << std::endl;
 }
+
+std::string Animal::getType(void) const
+{
+	return type;
+}
