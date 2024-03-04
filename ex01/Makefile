@@ -1,17 +1,15 @@
-NAME = animals
+NAME = brain
 
 SRCS =	main.cpp \
 		Dog.cpp \
 		Cat.cpp \
 		Animal.cpp \
-		WrongAnimal.cpp \
-		WrongCat.cpp
+		Brain.cpp
 
 HEADERS =	Animal.hpp \
+			Brain.hpp \
 			Cat.hpp \
-			Dog.hpp \
-			WrongAnimal.hpp \
-			WrongCat.hpp
+			Dog.hpp
 
 OBJS = $(SRCS:.cpp=.o)
 
